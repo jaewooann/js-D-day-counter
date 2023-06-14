@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-Day-App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>D-Day</h1>
+    <div id="dDayContainer">
+      <div class="dDay-child-container">
+        <span id="days">0</span>
+        <span>일</span>
+      </div>
+      <div class="dDay-child-container">
+        <span id="hours">0</span>
+        <span>시간</span>
+      </div>
+      <div class="dDay-child-container">
+        <span id="min">0</span>
+        <span>분</span>
+      </div>
+      <div class="dDay-child-container">
+        <span id="sec">0</span>
+        <span>초</span>
+      </div>
+    </div>
+    <div id="dDayMessage"></div>
+    <div id="targetSelector">
+      <input id="targetYearInput" class="targetInput" type="text" size="5" /> -
+      <input id="targetMonthInput" class="targetInput" type="text" size="5" /> -
+      <input id="targetDateInput" class="targetInput" type="text" size="5" />
+    </div>
+    <button class="btn" onclick="starter()">카운트다운 시작</button>
+    <button class="btn" onclick="resetTimer()">타이머 초기화</button>
+    <script src="./script.js"></script>
+  </body>
+</html>

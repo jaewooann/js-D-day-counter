@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+#dDayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.dDay-child-container {
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.dDay-child-container span {
+  font-size: 1.3rem;
+}
+
+#targetSelector {
+  margin-top: 0.5rem;
+}
